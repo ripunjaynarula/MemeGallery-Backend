@@ -1,0 +1,14 @@
+[features]
+seeds = false
+[programs.devnet]
+myepicproject = "DWoiaDRiJaKJk87J9ikwYAox45PWgYLW7puUFs6VdoYy"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "devnet"
+wallet = "/home/ripunjaynarula/.config/solana/id.json"
+
+[scripts]
+test = "yarn run mocha -t 1000000 tests/"
